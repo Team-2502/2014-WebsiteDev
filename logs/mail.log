@@ -1,0 +1,21 @@
+2014-04-07 13:26:56 u73795673 3ofCfr-1Wm4MM23HW-00FxEH |< REMOTE=209.162.53.14 SCRIPT=/forums/index.php -- /usr/sbin/sendmail -t -i
+2014-04-07 13:26:56 u73795673 3ofCfr-1Wm4MM23HW-00FxEH <= S=joshua.larson@team2502.com SZ=1757 D=0 SID=475380001
+2014-04-07 13:26:59 u73795673 3ofCfr-1Wm4MM23HW-00FxEH => paulkautz@hotmail.com msmtp.perfora.net[172.19.143.3] 250 Message 0MQiRh-1WRwNB2V8H-00UDKc accepted by mrus3.perfora.net
+2014-04-07 13:26:59 u73795673 3oMavf-1WOvIb0R8A-00S8wv |< REMOTE=209.162.53.14 SCRIPT=/forums/index.php -- /usr/sbin/sendmail -t -i
+2014-04-07 13:26:59 u73795673 3oMavf-1WOvIb0R8A-00S8wv <= S=joshua.larson@team2502.com SZ=1754 D=0 SID=475380001
+2014-04-07 13:27:00 u73795673 3oMavf-1WOvIb0R8A-00S8wv => joshua@ourclan.net msmtp.perfora.net[172.19.143.3] 250 Message 0Mar7C-1WHBXd1XBa-00JuqW accepted by mrus2.perfora.net
+2014-04-07 13:27:00 u73795673 3ogIbX-1WnAHy3Ur8-00H39R |< REMOTE=209.162.53.14 SCRIPT=/forums/index.php -- /usr/sbin/sendmail -t -i
+2014-04-07 13:27:00 u73795673 3ogIbX-1WnAHy3Ur8-00H39R <= S=joshua.larson@team2502.com SZ=1759 D=0 SID=475380001
+2014-04-07 13:27:02 u73795673 3ogIbX-1WnAHy3Ur8-00H39R => madlittlemods@gmail.com msmtp.perfora.net[172.19.143.3] 250 Message 0MV65l-1WWK5p42lp-00Z8NU accepted by mrus4.perfora.net
+2014-04-07 13:27:02 u73795673 3odZqb-1Wg30g1w5A-008txT |< REMOTE=209.162.53.14 SCRIPT=/forums/index.php -- /usr/sbin/sendmail -t -i
+2014-04-07 13:27:02 u73795673 3odZqb-1Wg30g1w5A-008txT <= S=joshua.larson@team2502.com SZ=1756 D=0 SID=475380001
+2014-04-07 13:27:03 u73795673 3odZqb-1Wg30g1w5A-008txT => goldon1626@gmail.com msmtp.perfora.net[172.19.143.3] 250 Message 0MA7tp-1WiVqx1oUb-00C11w accepted by mrus0.perfora.net
+2014-04-07 19:35:46 u73795673 3oGHPS-1WMdY51KCl-00QE69 |< REMOTE=204.169.28.98 SCRIPT=/forums/index.php -- /usr/sbin/sendmail -t -i
+2014-04-07 19:35:46 u73795673 3oGHPS-1WMdY51KCl-00QE69 <= S=joshua.larson@team2502.com SZ=1561 D=0 SID=475380001
+2014-04-07 19:35:46 u73795673 3oGpNE-1WNBmR32E9-00Pg6z |< REMOTE=204.169.28.98 SCRIPT=/forums/index.php -- /usr/sbin/sendmail -t -i
+2014-04-07 19:35:46 u73795673 3oGpNE-1WNBmR32E9-00Pg6z <= S=joshua.larson@team2502.com SZ=1561 D=0 SID=475380001
+2014-04-07 19:35:47 u73795673 3oGHPS-1WMdY51KCl-00QE69 => dayton.andersen@gmail.com msmtp.perfora.net[172.19.143.3] 250 Message 0MJT9f-1WYgn31Xpr-003AFc accepted by mrus3.perfora.net
+2014-04-07 19:35:48 u73795673 3oGpNE-1WNBmR32E9-00Pg6z => dayton.andersen@gmail.com msmtp.perfora.net[172.19.143.3] 250 Message 0MOfLq-1WcEUO3Ff4-005YB6 accepted by mrus2.perfora.net
+2014-04-07 19:46:19 u73795673 3oGpNE-1WNBPq3VnR-00PZp7 |< REMOTE=204.169.28.98 SCRIPT=/forums/index.php -- /usr/sbin/sendmail -t -i
+2014-04-07 19:46:19 u73795673 3oGpNE-1WNBPq3VnR-00PZp7 <= S=joshua.larson@team2502.com SZ=1738 D=0 SID=475380001
+2014-04-07 19:46:21 u73795673 3oGpNE-1WNBPq3VnR-00PZp7 => dayton.andersen@gmail.com msmtp.perfora.net[172.19.143.3] 250 Message 0M2cIP-1Wpwac3mfl-00sxm1 accepted by mrus2.perfora.net

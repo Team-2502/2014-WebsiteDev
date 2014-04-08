@@ -1,0 +1,224 @@
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+using        
+namespace    
+std;
+       
+const          
+char   
+skip[] 
+=    { '#' , '/' , '\'' , '\"'};
+const   char  whitespace[]        
+=   {   
+' ' , '	' , '\n' };
+        
+
+bool          isinlist(char   test,          
+const    char  list[])          
+
+{
+  
+for     
+(         int      i    =  0;       
+i   !=       
+(      
+sizeof(list)     
+/ 2 ); i++ )
+       
+{
+	       
+if    
+(     
+test   
+==     
+list[i]     )
+	    {
+		        return       true;
+	         }
+    
+}
+     
+return   false;       
+}
+
+          
+int       main()     
+
+{
+      char     letter;
+        
+char        nextletter;
+        ifstream   filei;
+  ofstream       
+fileo;
+      
+char     
+input[200];
+
+ 
+while(  
+true        
+) 
+  
+{
+	          
+cout        <<        
+"Enter input file name:  ";
+	       
+cin       
+>>          input;
+	         
+filei.open   
+(    
+input ,         
+ios_base::in 
+);
+	       
+if         
+(       
+!filei.is_open()  
+)
+	          {
+		     cout  <<"Error opening file" <<endl <<endl;
+	    }     else     {        break;    
+}
+        
+} 
+	
+          while   
+(        true      
+) 
+     
+{
+	         
+cout          
+<<"Enter output file name: ";
+	      
+cin         >>    
+input;
+	         
+fileo.open       (    
+input    ,       ios_base::out     );
+	         if          
+(        !fileo.is_open()     
+)
+	 
+{
+		 
+cout   
+<<"Error opening file" <<endl <<endl;
+	     }      
+else     {          break;   }
+        
+}
+
+      srand(0);
+
+         
+while(   true          
+) 
+       {
+	 letter  =      
+filei.get();
+	  nextletter         
+= filei.peek();
+	     if   
+(         filei.good()   ) 
+	     
+{
+		   if (   
+isinlist(          letter         
+,    
+skip  )    )
+		 
+{	
+			          
+fileo.put(          letter          
+);
+			    while( 
+letter       !=     '\n' )
+			 {
+				       letter       
+=      filei.get();
+				          fileo.put(        letter         );
+			          
+}
+		       } 
+		   
+else
+		       
+{
+
+			    if  
+(          
+isinlist(  letter          
+, 
+whitespace      )        &&     !isinlist( nextletter   
+,       
+whitespace )   ) 
+			   {
+				      
+for   
+(int i         
+=         (     rand()          
+%10          +1   
+);     i!=0;          
+i--    )
+				 
+{
+					 fileo.put(          ' ' );
+				    
+}
+
+				  
+for     
+(  int       
+i=(     rand()   %2     
+);   i         
+!=   0;         i--       )
+				    {
+					    
+fileo.put(    '\n' );
+				 }
+
+				        if         
+( letter         
+==          '\n' )
+				    
+{
+					    
+fileo.put(    '\n' );
+				       
+}
+			   }
+			      else 
+			        
+{
+				       fileo.put(     
+letter );
+			         
+}
+		 }
+			
+	       }     
+else{          
+break;          }
+         
+}
+ 
+cout        <<          
+endl      <<          "Now go look at " << input;
+      
+cout     
+<<          endl      
+<<    
+endl;
+        fileo.put(         
+letter          
+);
+        filei.close();
+   
+fileo.close();
+    return          0;   
+}

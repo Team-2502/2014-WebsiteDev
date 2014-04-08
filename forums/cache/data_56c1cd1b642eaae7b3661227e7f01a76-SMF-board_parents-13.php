@@ -1,0 +1,1 @@
+<?php if (!defined('SMF')) die; if (1396922422 < time()) $expired = true; else{$expired = false; $value = 'a:1:{i:13;a:4:{s:3:"url";s:51:"http://www.team2502.com/forums/index.php?board=13.0";s:4:"name";s:4:"News";s:5:"level";s:1:"0";s:10:"moderators";a:0:{}}}';}?>
