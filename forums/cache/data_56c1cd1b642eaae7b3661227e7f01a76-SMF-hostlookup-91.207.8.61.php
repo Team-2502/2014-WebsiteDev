@@ -1,1 +1,0 @@
-<?php if (!defined('SMF')) die; if (1396914190 < time()) $expired = true; else{$expired = false; $value = 's:33:"61.8.207.91.unknown.SteepHost.Net";';}?>

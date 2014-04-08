@@ -1,7 +1,0 @@
-<IfModule mod_rewrite.c>
-	Options +FollowSymlinks
-	RewriteEngine On
-
-	RewriteRule ^index\.php.*$ pointHtaccess.php [NC,L]
-
-</IfModule>
